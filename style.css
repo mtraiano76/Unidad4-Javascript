@@ -1,24 +1,10 @@
 
 
-
-.contenedor{
-    display:flex;
-    justify-content: space-around;
-    background-color: blue;
-    width: 100%;
-    height: 500px;
-
-
-}
-
-.caja {
+.contenedor {
     display: flex;
     align-items: center;
+    align-content: space-around;
 
-}
-.contenedor:hover{
-    background-color: rgb(85, 68, 85);
-    color: black;
 }
 
 .cubo1{
@@ -27,40 +13,42 @@
     color: white;
     height: 300px;
     width: 300px;
-    justify-content: space-around;
+    margin: 10px;
     
 }
-/*.cubo1:hover{
+.cubo1:hover{
     background-color: thistle;
     color: black;
-}*/
+}
 
 .cubo2{
-    background-color: rgb(190, 229, 190);
+    background-color: rgb(125, 243, 125);
     text-align: center;
     color: white;
     height: 300px;
     width: 300px;
-    
+    margin: 10px;
 }
-/*.cubo2:hover{
+.cubo2:hover{
     background-color: rgb(159, 223, 183);
     color: black;
     
-}*/
+}
 .cubo3{
-    background-color: lightskyblue;
+    background-color: rgb(76, 91, 226);
     text-align: center;
     color: white;
     height: 300px;
     width: 300px;
+    margin: 10px;
     
 }
-/*.cubo3:hover{
-    background-color: rgb(215, 241, 255);
+.cubo3:hover{
+    background-color: rgb(159, 223, 183);
     color: black;
     
-}*/
+}
+
 .contador{
     margin-top: 100px;
 }
