@@ -2,51 +2,22 @@
 
 .contenedor {
     display: flex;
-    align-items: center;
-    align-content: space-around;
-
 }
 
-.cubo1{
-    background-color:lightcoral;
-    text-align: center;
-    color: white;
-    height: 300px;
-    width: 300px;
-    margin: 10px;
-    
-}
-.cubo1:hover{
-    background-color: thistle;
-    color: black;
+.cuadrado{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
 }
 
-.cubo2{
-    background-color: rgb(125, 243, 125);
-    text-align: center;
-    color: white;
-    height: 300px;
-    width: 300px;
-    margin: 10px;
+.rojo{
+    background-color: red;
 }
-.cubo2:hover{
-    background-color: rgb(159, 223, 183);
-    color: black;
-    
+.azul{
+    background-color:blue;
 }
-.cubo3{
-    background-color: rgb(76, 91, 226);
-    text-align: center;
-    color: white;
-    height: 300px;
-    width: 300px;
-    margin: 10px;
-    
-}
-.cubo3:hover{
-    background-color: rgb(159, 223, 183);
-    color: black;
-    
+.verde{
+    background-color: green;
 }
 
 .contador{

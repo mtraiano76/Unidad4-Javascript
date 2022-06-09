@@ -1,21 +1,6 @@
-
-let cubo1 = document.querySelector('.cubo1')
-let cubo2 = document.querySelector('.cubo2')
-let cubo3 = document.querySelector('.cubo3')
-
-
-cubo1.addEventListener('onclick', e =>{
-  contenedor.classList.toggle('darkmode')
-});
-
-cubo2.addEventListener('onclick', e =>{
-  contenedor.classList.toggle('darkmode')
-});
-
-cubo3.addEventListener('onclick', e =>{
-  contenedor.classList.toggle('darkmode')
-});
-
+function cambiarFondo(color) {
+  document.querySelector("body").style.background=color;
+}
 
   function countChars(obj){
     document.getElementById("charNum").innerHTML = obj.value.length+' Caracteres';
